@@ -11,7 +11,7 @@ def main():
     st.markdown("<h1 style='text-align: center; color: #87CEEB; font-style: italic; font-size: 90px;'>PalMira</h1>", unsafe_allow_html=True)
     
     # Catchy line
-    st.markdown("<p style='text-align: center;color: #3A3B3C;font-size: 25px;'>Here Art Thou, All Lively and Lone", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;color: #3A3B3C;font-size: 23px;'>Here Art Thou, All Lively and Lone", unsafe_allow_html=True)
 
     # Example Image
     st.image(image=r"./Images/demo2.gif", use_column_width=True)
