@@ -4,12 +4,9 @@ import io
 import base64
 
 
-# Set wide view by default
-st.set_page_config(layout="wide")
-
 def main():
     st.set_page_config(page_title="PalMira",
-                       page_icon="./Images/icon.png", layout="centered")
+                       page_icon="./Images/icon.png", layout="wide")
 
     # Increase letter size of the title
     st.markdown("<h1 style='text-align: center; color: #87CEEB; font-style: italic; font-size: 90px;'>PalMira</h1>", unsafe_allow_html=True)
