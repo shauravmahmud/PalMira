@@ -3,6 +3,10 @@ from PIL import Image, ImageEnhance, ImageFilter, ImageOps
 import io
 import base64
 
+
+# Set wide view by default
+st.set_page_config(layout="wide")
+
 def main():
     st.set_page_config(page_title="PalMira",
                        page_icon="./Images/icon.png", layout="centered")
