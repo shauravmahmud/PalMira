@@ -14,7 +14,7 @@ def main():
     st.markdown("<p style='text-align: center;color: #3A3B3C;font-size: 30px;'>Here Art Thou, All Lively and Lone", unsafe_allow_html=True)
 
     # Example Image
-    st.image(image=r"C:\Users\eye\Desktop\website\images\demo2.gif", use_column_width=True)
+    st.image(image=r"./Images/demo2.gif", use_column_width=True)
     st.markdown("</br>", unsafe_allow_html=True)
     
     # Display sections for style image, content image, and synthesized image
